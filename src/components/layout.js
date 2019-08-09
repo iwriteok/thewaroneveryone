@@ -25,13 +25,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <div
-          style={{
-            padding: "0 1rem",
-          }}
-        >
-          <main>{children}</main>
-        </div>
+        <main>{children}</main>
         <Footer siteTitle={data.site.siteMetadata.title} />
       </>
     )}

@@ -1,32 +1,23 @@
 import React from "react"
 
-import feature from "../images/feature.png"
-import SectionHeader from "./section-header"
 import { COLORS } from "../styles/constants"
 
 const Content = () => (
-  <div style={{ padding: "4rem 1rem", textAlign: "center" }}>
-    <SectionHeader
-      title="Minimal Features"
-      description="Don't spend time ripping out unneeded plugins and bloat."
-    />
+  <div style={{ padding: "1rem 1rem", textAlign: "left" }}>
+    
     <content
       style={{
         display: "grid",
-        alignItems: "center",
-        justifyContent: "center",
+        alignItems: "left",
+        justifyContent: "left",
         gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
       }}
     >
       <div>
-        <h3>What you need to Start</h3>
-        <p style={{ color: COLORS.gray }}>
-          Includes plugins for analytics, building sitemaps, and optimizing
-          images
-        </p>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
       </div>
       <div>
-        <img src={feature} alt="a blank card floating over colorful graphics" />
+        {/* more content */}
       </div>
     </content>
   </div>

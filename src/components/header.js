@@ -1,28 +1,20 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { Link } from "gatsby"
+
+import logo from "../images/logo-wide.svg"
+import { COLORS } from "../styles/constants";
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div>
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+
+    <img src={logo} alt='' style={{
+      maxWidth: '300vw',
+      minHeight: '10vw',      
+      maxHeight: '40vh',
+      width: '300vw',
+      marginLeft: '-100%',
+    }}/>
+    
+
 )
 
 Header.propTypes = {

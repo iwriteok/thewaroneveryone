@@ -7,7 +7,7 @@ const Button = ({ children }) => (
   <button
     style={{
       padding: ".5rem 2.5rem",
-      color: COLORS.lightWhite,
+      color: COLORS.white,
       fontWeight: 700,
       background: GRADIENT,
       borderRadius: BORDER_RADIUS,
