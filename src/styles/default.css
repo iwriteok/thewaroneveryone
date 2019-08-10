@@ -8,6 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+main {
+  overflow-x: hidden;
+}
 article,
 aside,
 details,
@@ -61,7 +64,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  font-size: 2em;
+  font-size: 1.612em;
   margin: 0.67em 0;
 }
 mark {

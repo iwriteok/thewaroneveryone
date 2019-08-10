@@ -25,7 +25,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <main>{children}</main>
+        <main style={{ minHeight: 'calc(100vh - 5.444rem)', maxWidth: '100vw', overflowX: 'hidden'}}>
+          {children}
+        </main>
         <Footer siteTitle={data.site.siteMetadata.title} />
       </>
     )}

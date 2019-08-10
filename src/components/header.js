@@ -1,17 +1,18 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import logo from "../images/logo-wide.svg"
+import logo from "../images/logo.svg"
 import { COLORS } from "../styles/constants";
 
 const Header = ({ siteTitle }) => (
 
     <img src={logo} alt='' style={{
-      maxWidth: '300vw',
+      maxWidth: '400vw',
       minHeight: '10vw',      
       maxHeight: '40vh',
-      width: '300vw',
-      marginLeft: '-100%',
+      width: '400vw',
+      marginLeft: '-150%',
+      marginRight: '-150%'
     }}/>
     
 
