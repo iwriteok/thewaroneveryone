@@ -4,17 +4,17 @@ import PropTypes from "prop-types"
 import logo from "../images/logo.svg"
 import { COLORS } from "../styles/constants";
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
 
     <img src={logo} alt='' style={{
       maxWidth: '400vw',
-      minHeight: '10vw',      
+      minHeight: '10vw',
       maxHeight: '40vh',
       width: '400vw',
       marginLeft: '-150%',
       marginRight: '-150%'
     }}/>
-    
+
 
 )
 
