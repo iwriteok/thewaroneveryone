@@ -15,7 +15,7 @@ const prepareSoundCloudLink = (linkText) => {
       width = '100%' 
       height = '160' 
       scrolling = 'no' 
-      frameborder = 'no' 
+      frameBorder = 'no' 
       allow = 'autoplay'
       title= {urlBase}
       src={ urlBase += urlParams }>

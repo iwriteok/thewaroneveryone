@@ -2,15 +2,25 @@ import React from 'react';
 import Chapter from './chapter';
 import Preamble from './preamable';
 
+import { chapter1Title, chapter1Description, chapter1SoundCloudLink } from '../chapters/chapter1'
+import { chapter2Title, chapter2Description, chapter2SoundCloudLink } from '../chapters/chapter2'
+import { chapter3Title, chapter3Description, chapter3SoundCloudLink } from '../chapters/chapter3'
+import { chapter4Title, chapter4Description, chapter4SoundCloudLink } from '../chapters/chapter4'
+import { chapter5Title, chapter5Description, chapter5SoundCloudLink } from '../chapters/chapter5'
+import { chapter6Title, chapter6Description, chapter6SoundCloudLink } from '../chapters/chapter6'
+import { chapter7Title, chapter7Description, chapter7SoundCloudLink } from '../chapters/chapter7'
+
 const Content = () => (
   <div>
     <content className='chapter-grid'>
       <Preamble />
-      <Chapter title='Chapter 1' description={chapterDescription} soundCloudLink='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>'/>
-      <Chapter title='Chapter 2' description={chapterDescription} soundCloudLink='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>'/>
-      <Chapter title='Chapter 3' description={chapterDescription} soundCloudLink='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>'/>
-      <Chapter title='Chapter 4' description={chapterDescription} soundCloudLink='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>'/>
-      <Chapter title='Chapter 5' description={chapterDescription} soundCloudLink='<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485754510&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=true"></iframe>'/>
+      <Chapter title={chapter1Title} description={chapter1Description} soundCloudLink={chapter1SoundCloudLink} />
+      <Chapter title={chapter2Title} description={chapter2Description} soundCloudLink={chapter2SoundCloudLink} />
+      <Chapter title={chapter3Title} description={chapter3Description} soundCloudLink={chapter3SoundCloudLink} />
+      <Chapter title={chapter4Title} description={chapter4Description} soundCloudLink={chapter4SoundCloudLink} />
+      <Chapter title={chapter5Title} description={chapter5Description} soundCloudLink={chapter5SoundCloudLink} />
+      <Chapter title={chapter6Title} description={chapter6Description} soundCloudLink={chapter6SoundCloudLink} />
+      <Chapter title={chapter7Title} description={chapter7Description} soundCloudLink={chapter7SoundCloudLink} />
     </content>
   </div>
 )

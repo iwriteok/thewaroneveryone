@@ -1,0 +1,3 @@
+export const chapter6Title = `Chapter 6: The Perfect Soldier`;
+export const chapter6Description = `In his life and death, Timothy McVeigh represented the best-case scenario for the kind of warriors Louis Beam wanted to inculcate through his “leaderless resistance” strategy. His story is a tale of triumph for American fascism.`;
+export const chapter6SoundCloudLink = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664807931%3Fsecret_token%3Ds-VJrix&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;

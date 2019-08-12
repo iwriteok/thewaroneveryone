@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-landing-page",
+  "name": "The War on Everyone",
   "private": true,
-  "description": "A simple starter to create a minimal landing page with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Gill <kyle.robert.gill@gmail.com>",
+  "description": "A website for The War on Everyone, an audiobook by Robert Evans.",
+  "version": "1.0.0",
+  "author": "Alan Ray Ampersand <alanrayampersand@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",

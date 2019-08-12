@@ -1,0 +1,3 @@
+export const chapter5Title = `Chapter 5: The Hidden Civil War`;
+export const chapter5Description = `Inspired by Beam and Pierce, a young man named Bob Mathews attempted to spark a Second American Civil War. Whether he succeeded or failed is still up in the air.`;
+export const chapter5SoundCloudLink = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664807961%3Fsecret_token%3Ds-Lr713&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;

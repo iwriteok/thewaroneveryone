@@ -1,0 +1,3 @@
+export const chapter3Title = `Chapter 3: The Apostle of Fascism`;
+export const chapter3Description = `William Luther Pierce is the most important Nazi you’ve never heard of, and his work has helped inspire a generation of terrorists- right up to the present day.`;
+export const chapter3SoundCloudLink = `<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/664808024%3Fsecret_token%3Ds-vD38q&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>`;
