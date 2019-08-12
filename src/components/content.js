@@ -26,7 +26,3 @@ const Content = () => (
 )
 
 export default Content
-
-const chapterDescription = `Nulla varius aliquam tristique. Maecenas vulputate odio in cursus pretium. Integer eget pulvinar arcu, eu semper enim. Donec eget metus a velit sodales dignissim at non justo. Ut pharetra nibh eget consectetur tempor. Pellentesque accumsan erat diam, et volutpat felis porta eget. Mauris interdum iaculis libero at rhoncus.
-
-Suspendisse vel tincidunt augue, non vulputate justo.Sed ut sagittis ligula.In vel dictum arcu.Cras at diam pellentesque, mollis mi at, facilisis tortor.Fusce ultricies.`;

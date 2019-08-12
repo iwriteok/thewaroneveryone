@@ -10,6 +10,10 @@
   --red: #861111;
 }
 
+* {
+  font-variant-ligatures: common-ligatures;
+}
+
 a {
   text-decoration: none;
 }
@@ -42,6 +46,13 @@ h1 {
   font-family: 'Libre Baskerville', serif;
   font-weight: normal;
   color: var(--blackish);
+  line-height: 1.9rem;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 5.3vw;
+  }
 }
 
 main {
@@ -54,9 +65,15 @@ p {
   font-family: 'Lato', Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 400px) {
+  p {
+    font-size: 3.8vw;
+    line-height: 1.5rem;
+  }
+}
+
 p, .book-description {
   font-family: 'Lato', Helvetica, sans-serif;
-  font-variant-ligatures: common-ligatures;
   color: var(--blackish);
   white-space: pre-wrap;
 }
@@ -65,7 +82,14 @@ p, .book-description {
   font-family: 'Libre Baskerville', serif;
   grid-column: 2;
   text-align: center;
-  font-size: 1em;
+  font-size: 1.1em;
+  height: 2em;
+}
+
+@media screen and (max-width: 400px) {
+  .book-description {
+    font-size: 3.8vw;
+  }
 }
 
 .chapter-grid {
