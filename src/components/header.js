@@ -1,29 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
-
-import logo from "../images/logo.svg"
-import { COLORS } from "../styles/constants";
+import React from 'react';
+import logo from '../images/logo.svg';
 
 const Header = () => (
-
-    <img src={logo} alt='' style={{
-      maxWidth: '400vw',
-      minHeight: '10vw',
-      maxHeight: '40vh',
-      width: '400vw',
-      marginLeft: '-150%',
-      marginRight: '-150%'
-    }}/>
-
-
+    <img src={logo} alt='' className='hero'/>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header

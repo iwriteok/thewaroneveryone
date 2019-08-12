@@ -1,37 +1,32 @@
-import React from "react"
-import PropTypes from "prop-types"
-
-import { COLORS } from "../styles/constants"
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Footer = ({ siteTitle }) => (
-  <footer
-    style={{
-      padding: "1rem",
-      backgroundColor: COLORS.blackish,
-    }}
-  >
-    <div
-      style={{
-        display: "grid",
-        alignItems: "center",
-        justifyContent: "space-between",
-        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 240px))",
-        padding: "1rem 2rem",
-        fontSize: ".85rem",
-      }}
-    >
-      <div style={{ color: COLORS.red, fontWeight: 700 }}>
-        <a
-          style={{ 
-            textDecoration: "none",  
-            color: COLORS.white,
-          }}
-          href="https://github.com/gillkyle/gatsby-starter-landing-page"
-        >
-          Contact Us
-        </a>
+  <footer>
+    <div className='footer-grid'>
+      <div>
+        <div>
+          <a href='https://www.behindthebastards.com/' className='white-text' target="_blank">
+            Behind the Bastards
+          </a>
+        </div>
+        <div>
+          <a href='https://www.itcouldhappenherepod.com/about.htm' className='white-text' target="_blank">
+            It Could Happen Here
+          </a>
+        </div>
+        <div>
+          <a href='https://www.gofundme.com/f/the-war-on-everyone' className='white-text' target="_blank">
+            Our Indiegogo
+          </a>
+        </div>
+        <div>
+          <a href='https://twitter.com/iwriteok' className='white-text' target="_blank">
+            Robert Evans on Twitter
+          </a>
+        </div>
       </div>
-      <div style={{ color: COLORS.white }}>
+      <div className='copyright'>
         © {new Date().getFullYear() + ` ` + siteTitle}
       </div>
     </div>

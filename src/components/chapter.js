@@ -1,22 +1,38 @@
-import React from "react"
+import React from 'react';
 
-import { COLORS } from "../styles/constants"
+const urlParams = '&color=%23861111&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&sharing=false&show_artwork=false&show_playcount=false';
+
+const prepareSoundCloudLink = (linkText) => {
+  if (typeof linkText !== 'string') return linkText;
+  
+  let startIndex = linkText.indexOf('http');
+  let endIndex = linkText.indexOf('&');
+
+  let urlBase = linkText.substring(startIndex, endIndex);
+
+  return (
+    <iframe 
+      width = '100%' 
+      height = '160' 
+      scrolling = 'no' 
+      frameborder = 'no' 
+      allow = 'autoplay'
+      title= {urlBase}
+      src={ urlBase += urlParams }>
+    </iframe>
+  );
+} 
 
 const Content = (props) => (
-  <div style={{ padding: "1rem 1rem", textAlign: "left" }}>
+  <>
+    <hr />
+    <div className="chapter-container">
 
-    <content
-      style={{
-        display: "grid",
-        alignItems: "center",
-        justifyContent: "left",
-        gridTemplateColumns: "repeat(auto-fit, minmax(240px, 340px))",
-      }}
-    >
-      <div>
-        {props.soundcloud}
+      <div className='chapter-soundcloud-link'>
+        {prepareSoundCloudLink(props.soundCloudLink)}
       </div>
-      <div style={{ padding:"1rem" }}>
+
+      <div className='chapter-description'>
         <h1>
             {props.title}
         </h1>
@@ -24,8 +40,8 @@ const Content = (props) => (
             {props.description}
         </p>
       </div>
-    </content>
-  </div>
+    </div>
+  </>
 )
 
 export default Content

@@ -5,12 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
 
-import React from "react"
-import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { StaticQuery, graphql } from 'gatsby';
 
-import Footer from "./footer"
-import "../styles/default.css"
+import Footer from './footer';
+import '../styles/default.css';
+import '../styles/index.css';
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -25,11 +26,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <main style={{
-            minHeight: 'calc(100vh - 5.444rem)',
-            maxWidth: '100vw',
-            overflowX: 'hidden'
-        }}>
+        <main>
           {children}
         </main>
         <Footer siteTitle={data.site.siteMetadata.title} />
